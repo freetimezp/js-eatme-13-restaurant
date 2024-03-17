@@ -9,6 +9,7 @@ import "./globals.css";
 
 import TopBar from './components/TopBar';
 import Header from './components/Header';
+import BackToTopBtn from './components/BackToTopBtn';
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
         <TopBar />
         <Header />
         {children}
+        <BackToTopBtn />
 
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
