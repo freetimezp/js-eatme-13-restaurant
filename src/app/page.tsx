@@ -4,6 +4,7 @@ import WhyUs from "./sections/WhyUs";
 import Menu from "./sections/Menu";
 import Specials from "./sections/Specials";
 import Events from "./sections/Events";
+import Booking from "./sections/Booking";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Menu />
         <Specials />
         <Events />
+        <Booking />
       </main>
     </>
   );
