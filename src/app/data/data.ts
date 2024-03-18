@@ -155,7 +155,7 @@ export const filters = [
 export const specials = [
   {
     id: 1,
-    image: './assets/images/specials/specials-1.png',
+    image: '/assets/images/specials/specials-1.png',
     title: 'Architecto ut aperiam autem id',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -165,7 +165,7 @@ export const specials = [
   },
   {
     id: 2,
-    image: './assets/images/specials/specials-2.png',
+    image: '/assets/images/specials/specials-2.png',
     title: 'Et blanditiis nemo veritatis excepturi',
     subtitle:
       'Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka',
@@ -175,7 +175,7 @@ export const specials = [
   },
   {
     id: 3,
-    image: './assets/images/specials/specials-3.png',
+    image: '/assets/images/specials/specials-3.png',
     title: 'Impedit facilis occaecati odio neque aperiam sit',
     subtitle:
       'Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut',
@@ -185,7 +185,7 @@ export const specials = [
   },
   {
     id: 4,
-    image: './assets/images/specials/specials-4.png',
+    image: '/assets/images/specials/specials-4.png',
     title:
       'Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore',
     subtitle:
@@ -196,7 +196,7 @@ export const specials = [
   },
   {
     id: 5,
-    image: './assets/images/specials/specials-5.png',
+    image: '/assets/images/specials/specials-5.png',
     title: 'Est eveniet ipsam sindera pad rone matrelat sando reda',
     subtitle: 'Omnis blanditiis saepe eos autem qui sunt debitis porro quia.',
     content:
