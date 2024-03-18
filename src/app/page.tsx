@@ -3,6 +3,7 @@ import About from "./sections/About";
 import WhyUs from "./sections/WhyUs";
 import Menu from "./sections/Menu";
 import Specials from "./sections/Specials";
+import Events from "./sections/Events";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <WhyUs />
         <Menu />
         <Specials />
+        <Events />
       </main>
     </>
   );
