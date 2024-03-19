@@ -10,7 +10,6 @@ import Gallery from "./sections/Gallery";
 import Chefs from "./sections/Chefs";
 import Contact from "./sections/Contact";
 
-
 export default function Home() {
   return (
     <>
