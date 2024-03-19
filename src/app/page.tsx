@@ -8,6 +8,7 @@ import Booking from "./sections/Booking";
 import Testimonials from "./sections/Testimonials";
 import Gallery from "./sections/Gallery";
 import Chefs from "./sections/Chefs";
+import Contact from "./sections/Contact";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Testimonials />
         <Gallery />
         <Chefs />
+        <Contact />
       </main>
     </>
   );
