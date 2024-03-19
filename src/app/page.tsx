@@ -6,6 +6,7 @@ import Specials from "./sections/Specials";
 import Events from "./sections/Events";
 import Booking from "./sections/Booking";
 import Testimonials from "./sections/Testimonials";
+import Gallery from "./sections/Gallery";
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Events />
         <Booking />
         <Testimonials />
+        <Gallery />
       </main>
     </>
   );
