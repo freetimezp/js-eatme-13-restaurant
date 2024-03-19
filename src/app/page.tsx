@@ -5,6 +5,7 @@ import Menu from "./sections/Menu";
 import Specials from "./sections/Specials";
 import Events from "./sections/Events";
 import Booking from "./sections/Booking";
+import Testimonials from "./sections/Testimonials";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Specials />
         <Events />
         <Booking />
+        <Testimonials />
       </main>
     </>
   );
