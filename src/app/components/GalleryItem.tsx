@@ -1,18 +1,18 @@
 "use client";
 import React, { useEffect } from 'react';
-import GLightbox from 'glightbox';
+//import GLightbox from 'glightbox';
 import './galleryItem.css';
 import Image from 'next/image';
 
 const GalleryItem = ({ item }: { item: { id: number; image: string } }) => {
 
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            new GLightbox({
-                selector: '.gallery-lightbox'
-            })
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (typeof window !== "undefined") {
+    //         new GLightbox({
+    //             selector: '.gallery-lightbox'
+    //         })
+    //     }
+    // }, []);
 
     return (
         <div className='col-lg-3 col-md-4'>
